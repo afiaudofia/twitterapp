@@ -25,9 +25,9 @@ export default class TweetColumn extends Component {
       {this.state.tweets.map((tweet, index) => (
         <div className="tweetbox p-2" key={tweet.id}>
               <a href="#">
-              <div className="tweettext">{tweet.text}</div>
-              {/* <div className="tweeturl">{tweet.entities[0]}</div> */}
-              <div className="tweetdate">{tweet.created_at.toLocaleDateString()}</div>
+              <div className="tweet_text">{tweet.text}</div>
+              {/* <div className="tweet_url">{tweet.entities[0]}</div> */}
+              <div className="tweet_date">{tweet.created_at.toLocaleDateString()}</div>
               </a>
         </div>
         ))}

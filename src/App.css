@@ -34,4 +34,5 @@ header {
   background: #FFFFFF;
   box-shadow: 0 10px 20px -10px #777777;
   transition: 1s;
+  cursor: pointer;
 }
